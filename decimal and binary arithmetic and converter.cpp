@@ -15,8 +15,8 @@ using namespace std;
         }
         unsigned long long baseDec[20];
         baseDec[0]=1;
-        for(int i2=1;i2<20;i2++){
-            baseDec[i2]=baseDec[i2-1]*2;
+        for(int i=1;i<20;i++){
+            baseDec[i]=baseDec[i-1]*2;
         }
         unsigned long long visibleBinaryNr=0;
         int rest=nrIn;
